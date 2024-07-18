@@ -1,0 +1,126 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+
+}
+
+body{
+    font-family: sans-serif;
+}
+
+/** Navbar start from here **/
+
+nav{
+    background-color: #023e8a;
+    height: 90px;
+    width: auto;
+
+}
+
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+        
+}
+
+.logo{
+    background-image: url("images/logo3.png");
+    background-size: cover;
+    height: 85px;
+    width: 165px;
+    background-color: none;
+    margin-right: 90px
+
+}
+
+
+.himiliyatxt{
+    color: white;
+    font-weight: bold;
+    font-size: 0.90rem;
+    cursor: pointer;
+    text-decoration: none;
+    border: 1px solid transparent;
+
+}
+
+.culturetxt{
+    color: white;
+    font-weight: bold;
+    font-size: 0.90rem;
+    cursor: pointer;
+    text-decoration: none;
+    border: 1px solid transparent;
+
+}
+
+.adventuretxt{
+    color: white;
+    font-weight: bold;
+    font-size: 0.90rem;
+    cursor: pointer;
+    text-decoration: none;
+    border: 1px solid transparent;
+
+}
+
+.border:hover{
+    border: 1px solid white;
+}
+
+.accountbar{
+    display: flex;
+
+}
+
+.search-section{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.searchbar{
+    color: white;
+    height: 50px;
+    width: 300px;
+    border: none;
+    color: black;
+    font-size: 0.95rem;
+    margin-left: 100px;
+    padding-left: 10px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    
+}
+
+.searchicon{
+    background-color: #ffb703;
+    color: white;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin-right: 20px;
+
+}
+
+.yellow:hover{
+    background-color: #fb8500;
+
+}
+
+.login-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    padding-right: 10px;
+}
+
+

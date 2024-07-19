@@ -7,6 +7,8 @@
 
 body{
     font-family: sans-serif;
+    height: 1600px;
+    
 }
 
 /** Navbar start from here **/
@@ -114,13 +116,70 @@ nav{
 
 }
 
+
 .login-section{
     display: flex;
     flex-direction: column;
     align-items: center;
     color: white;
-    text-decoration: none;
     padding-right: 10px;
+
+}
+
+.login-button p{
+    color: white;
+    text-decoration: none;
+    height: 900
+}
+
+/** main/content-section start from here **/
+
+.bgcolor{
+    background-color: #e7e7e7;
+    height: 1600px;
 }
 
 
+.bgimage-section{
+    height: 1000px;
+    width: 100%;
+    background-image: url("images/bgimage.jpg");
+    background-size: cover;
+
+}
+
+.headtext h1{
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+    font-size: 90px;
+    padding-top: 150px;
+    
+}
+
+.hotel-section{
+    width: auto;
+    height: 400px;
+    margin-right: 1vw;
+    margin-left: 1vw;
+    margin-top: 300px;
+    background-color: white;
+}
+
+.hotel-subsection{
+    padding: 15px 16px 0px;
+
+}
+
+.hotel-text{
+    padding-bottom: 15px;
+    font-size: 1.40rem;
+
+}
+
+.hotelimage-boxlayout{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}

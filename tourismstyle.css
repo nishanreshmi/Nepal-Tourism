@@ -6,9 +6,7 @@
 }
 
 body{
-    font-family: sans-serif;
-    height: 1600px;
-    
+    font-family: sans-serif;    
 }
 
 /** Navbar start from here **/
@@ -69,7 +67,8 @@ nav{
 }
 
 .border:hover{
-    border: 1px solid white;
+    border-bottom: 1px solid white;
+    
 }
 
 .accountbar{
@@ -136,7 +135,7 @@ nav{
 
 .bgcolor{
     background-color: #e7e7e7;
-    height: 1600px;
+    height: 1350px;
 }
 
 
@@ -157,9 +156,11 @@ nav{
     
 }
 
+/** section1 **/
+
 .hotel-section{
     width: auto;
-    height: 400px;
+    height: 350px;
     margin-right: 1vw;
     margin-left: 1vw;
     margin-top: 300px;
@@ -180,6 +181,111 @@ nav{
 .hotelimage-boxlayout{
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: center;    
     
+}
+
+.hotelimage-boxlayout img{
+    border-radius: 10px;
+    height: 200px;
+    width: 200px;
+    transition: transform 2ms ease-in-out;
+}
+
+.effect:hover{
+    transform: scale(1.05);
+
+}
+
+.hotel-details{
+    display: flex;
+    justify-content: space-around;
+    font-weight: bold;
+    font-size: 1.10em;
+    padding-top: 15px;
+}
+
+.hotel-details a {
+    text-decoration: none;
+    color: black;
+}
+
+.hotel-details p {
+    padding-bottom: 15px;
+    
+}
+
+.details{
+    font-size: 0.85rem;
+    font-weight: lighter;
+}
+
+/** section2 **/
+
+.touristplace-section{
+    width: auto;
+    height: 350px;
+    margin-right: 1vw;
+    margin-left: 1vw;
+    margin-top: 30px;
+    background-color: white;
+}
+
+.touristplace-subsection{
+    padding: 15px 16px 0px;
+
+}
+
+.touristplace-text{
+    padding-bottom: 15px;
+    font-size: 1.40rem;
+
+}
+
+.touristplace-boxlayout{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+    
+}
+
+.touristplace-boxlayout img{
+    border-radius: 10px;
+    height: 200px;
+    width: 200px;
+}
+
+.touristplace-details{
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    font-size: 1.10em;
+    padding-top: 15px;
+}
+
+.touristplace-details a {
+    text-decoration: none;
+    color: black;
+}
+
+.touristplace-details p {
+    padding-bottom: 15px;
+    
+}
+
+.details{
+    font-size: 0.85rem;
+    font-weight: lighter;
+}
+
+.copyright{
+    background-color: gray;
+    height: 100px;
+    width: 100%;
+    color: white;
+    font-weight: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
